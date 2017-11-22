@@ -22,7 +22,8 @@
         /* Inicio estilo mobile */
         .menu{
             display: flex;
-            justify-content: space-between;  
+            justify-content: space-between; 
+            align-items: center; 
         }
 
         .reach-me-link{
@@ -33,7 +34,45 @@
             display: none;
          }
        
-        
+        .hero{
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .hero__features, .hero__features--text{
+            padding: 20px;
+        }
+
+        .hero__features--text{
+            color: #37414b;
+        }
+
+        .hero__features--title{
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .button-hero{    
+            -webkit-border-radius: 28px;
+            -moz-border-radius: 28px;
+            border-radius: 28px;
+            font-family: Arial;
+            /* color: #ffffff; */
+            font-size: 20px;
+            /* background: #3498db; */
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            border-style: solid;
+            border-width: 2px;
+            display: inline-block;
+            margin-top: 10px;  
+        }
+
+        .button--primary{
+                        background: blue;
+                        border-color: blue;
+                        color: white;
+                    }
         
         /* Fim estilo mobile */
         /* Inicio estilo tablet */
@@ -96,13 +135,16 @@
             text-transform: uppercase;
         }
 
+        .navbar-buttons{
+            margin-left: 0;
+        }
         .navbar-pages__link, .navbar-pages__link--active{
             padding: 20px;
             color: #37414b;
         }
 
         .navbar-pages__link--active{
-            border-bottom: 2px solid bl#008af5;
+            border-bottom: 2px solid #008af5;
             font-weight: bold;
         }
     }
@@ -111,29 +153,60 @@
 
 <body>
     <nav class="menu">
-        <!-- item reach.me link -->
+    <!-- item reach.me link -->
         <a href="#" alt="link para página principal" class="reach-me-link">reach.me</a>
-         <!-- fim item reach.me link -->
+    <!-- fim item reach.me link -->
 
-        
-    <ul class="navbar-pages none-mobile-tablet">
-        <li class="navbar-pages__link">Features</li>
-        <li class="navbar-pages__link">Pricing</li>
-        <li class="navbar-pages__link navbar-pages__link--active">About Us</li>
-        <li class="navbar-pages__link">Blog</li>
-        <li class="navbar-pages__link">Contact us</li>
-    </ul>
-    
-    <div class="navbar-buttons">
-        <a href="" alt="Comece agora" class="button button--login none-mob">Log In</a>
-        <!-- item botão branco com fonte azul -->
-        <a href="" alt="Comece agora" class="button button--outline none-mob">Get Started</a>
-        <!-- fim item botão branco com fonte azul -->
-    </div>
+    <!-- inicio navbar lista links desktop -->    
+        <ul class="navbar-pages none-mobile-tablet">
+            <li class="navbar-pages__link">Features</li>
+            <li class="navbar-pages__link">Pricing</li>
+            <li class="navbar-pages__link navbar-pages__link--active">About Us</li>
+            <li class="navbar-pages__link">Blog</li>
+            <li class="navbar-pages__link">Contact us</li>
+        </ul>
+        <!-- final lista links desktop -->  
 
-    <img class="menu-hamrburguer none-menu" src="images/menu-hamburguer.png"> 
-    
+        <!-- inicio navbar buttons desktop e tablet --> 
+        <div class="navbar-buttons">
+            
+            <a href="" alt="Comece agora" class="button button--login none-mob">Log In</a>
+            <!-- item botão branco com fonte azul -->
+            
+            <a href="" alt="Comece agora" class="button button--outline none-mob">Get Started</a>
+            <!-- fim item botão branco com fonte azul -->
 
-</nav>
+        </div>
+        <!-- final navbar buttons desktop e tabhero__featureslet --> 
+        <!-- inicio menu-hamburguer mobile --> 
+        <img class="menu-hamburguer none-menu" src="images/menu-hamburguer.png" alt="imagem do menu hamburguer"> 
+        <!-- final menu-hamburguer mobile --> 
+    </nav>
+
+    <section class="hero">
+        <article class="hero__features">
+            <h1 class="hero__features--title">Reache.me Features</h1>
+                
+                <p class="hero__features--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Quis consequuntur.
+                </p>
+
+                <!-- item botão azul com fonte branca -->
+                <a href="" alt="Aprenda mais" class="button-hero button--primary">Learn More</a>
+                <!-- fim item botão azul com fonte branca -->
+        </article>
+
+        <figure class="imagem-responsiva">
+                <img src="images/img-features.png"
+                       srcset="images/img-features.png 1024w, images/images/img-features.png 640w, images/images/img-features.png 320w"
+                       sizes="100vw"
+                       alt="imagem features">
+        </figure>
+
+    </section>
+
+
+
+    <!-- fim da seção Social Publishing-->
 </body>
 </html>
