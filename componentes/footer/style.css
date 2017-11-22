@@ -40,9 +40,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 50%;
+        width: 374px;
         margin: 0;
-        margin-left: 20%;
+        margin-left: 14%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
     .rodape__lista li{
         padding-top: 0;
@@ -55,6 +57,15 @@
 
 /*Inicio do Desktop*/
 @media(min-width: 992px){
-    
+    .rodape{
+        justify-content: space-between;
+        padding: 0 15%;
+    }
+    .rodape__lista{
+        margin-left: 8%;
+    }
+    .redes-sociais{
+        padding: 10px;
+    }
 }
 /*Fim do Desktop*/
