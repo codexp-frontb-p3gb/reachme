@@ -3,10 +3,11 @@
     background: #344149;
     color: white;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .rodape__titulo__principal{
-    padding-top: 30px;
-    box-sizing: border-box;
+    margin-top: 30px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -14,8 +15,7 @@
     color: gray;
 }
 .rodape__lista{
-    padding: 10px 0 30px 0;
-    box-sizing: border-box;
+    margin: 10px 0 30px 0;
 }
 .rodape__lista li{
     padding-top: 5px;
@@ -31,25 +31,24 @@
         align-items: center;
     }
     .rodape__titulo__principal{
-        height: 80%;
-        padding-left: 10px;
-        box-sizing: border-box;
+        margin: 0;
     }
-    .rodape__titulo__principal , .rodape__titulo__sub-titulo{
+    .rodape__titulo__principal{
         align-items: left;   
-    }
-    .rodape__titulo__sub-titulo{
-        padding-bottom: 30px;
-        box-sizing: border-box;
-        height: 20%;
     }
     .rodape__lista{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0;
+        margin-left: 20%;
     }
     .rodape__lista li{
-        padding-left: 10px;
-        box-sizing: border-box;
+        padding-top: 0;
+    }
+    .redes-sociais{
+        float: right;
     }
 }
 /*Fim do Tablet*/
