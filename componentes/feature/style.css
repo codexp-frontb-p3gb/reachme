@@ -1,0 +1,36 @@
+
+.social-publishing{
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+strong{
+    color:blue;
+}
+
+.social-publishing--article{
+    text-align: justify;
+}
+
+.imagem-responsiva{
+    display: flex;
+    width: 100%;
+}
+
+.imagem-responsiva__mobile{
+width: 50%;
+align-items: left;
+}
+
+.imagem-responsiva__tablet{
+display: none;
+}
+
+.imagem-responsiva__desktop{
+display: none;
+}
+
