@@ -1,0 +1,22 @@
+.get-started-today{
+    background: rgb(20, 140, 244);
+    text-align: center;
+    padding: 70px 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 23px;
+}
+.get-started-today__titulo{
+    font-weight: bold;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+/*Inicio do Tablet*/
+@media(min-width: 768px){
+}
+/* Fim do Tablet*/
+
+/*Inicio do Desktop*/
+@media(min-width: 992px){
+}
+/*Fim do Tablet*/

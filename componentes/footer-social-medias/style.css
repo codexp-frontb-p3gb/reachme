@@ -1,0 +1,13 @@
+.redes-sociais{
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.redes-sociais__item {
+    display: inline-block;
+}
+.fa{
+    color: rgb(137, 144, 151);
+    font-size: 35px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}

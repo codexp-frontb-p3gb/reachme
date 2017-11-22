@@ -1,0 +1,71 @@
+ /*Inicio Rodapé */
+ .rodape{
+    background: #344149;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.rodape__titulo__principal{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.rodape__titulo__sub-titulo{
+    color: gray;
+}
+.rodape__lista{
+    margin: 10px 0 30px 0;
+}
+.rodape__lista li{
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+/* Fim rodapé */
+
+/*Inicio do Tablet*/
+@media(min-width: 768px){
+    .rodape{
+        display: flex;
+        height: 150px;
+        align-items: center;
+    }
+    .rodape__titulo__principal{
+        margin: 0;
+    }
+    .rodape__titulo__principal{
+        align-items: left;   
+    }
+    .rodape__lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 374px;
+        margin: 0;
+        margin-left: 14%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .rodape__lista li{
+        padding-top: 0;
+    }
+    .redes-sociais{
+        float: right;
+    }
+}
+/*Fim do Tablet*/
+
+/*Inicio do Desktop*/
+@media(min-width: 992px){
+    .rodape{
+        justify-content: space-between;
+        padding: 0 15%;
+    }
+    .rodape__lista{
+        margin-left: 8%;
+    }
+    .redes-sociais{
+        padding: 10px;
+    }
+}
+/*Fim do Desktop*/
