@@ -43,11 +43,11 @@
             padding: 20px;
         }
 
-        .hero__features--text{
+        .hero__features--text, ..features__engagement--text{
             color: #37414b;
         }
 
-        .hero__features--title{
+        .hero__features--title, .features__engagement--title{
             font-size: 2em;
             font-weight: bold;
         }
@@ -218,5 +218,23 @@
     </section>
 
     <!-- Final da sessão Hero -->
+
+
+    <section class="features">
+        <article class="features__engagement">
+            <h1 class="features__engagement--title">Engagement</h1>
+                <p class="features__engagement--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Quis consequuntur.
+                </p>
+        </article>
+
+        <figure class="imagem-responsiva">
+            <img src="images/engagement-feature.jpg"
+                   srcset="images/engagement-feature.jpg 1024w, images/images/engagement-feature.jpg 640w, images/images/engagement-feature.jpg 320w"
+                   sizes="100vw"
+                   alt="imagem features">
+    </figure>
+
+</section>
 </body>
 </html>
