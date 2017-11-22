@@ -1,0 +1,111 @@
+        /* inicio item reach.me link */
+        .reach-me-link{
+            color: rgb(63, 109, 209);
+            font-weight: bold;
+            font-size: 2em;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        /* fim item reach.me link */
+
+        /* Inicio estilo mobile */
+        .menu{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .reach-me-link{
+            padding: 20px;
+        }
+
+        .none-mob, .none-mobile-tablet{
+            display: none;
+         }
+       
+        .button--primary{
+            background: blue;
+            border-color: blue;
+            color: white;
+        }
+        
+        /* Fim estilo mobile */
+        /* Inicio estilo tablet */
+
+    @media(min-width: 768px){
+
+        .menu{
+            padding: 20px;
+        }
+
+        .none-mobile-tablet{
+            display: none;
+        }
+
+        .navbar-buttons{
+            margin-left: 200px;
+        }
+        .button{    
+            -webkit-border-radius: 28px;
+            -moz-border-radius: 28px;
+            border-radius: 28px;
+            font-family: Arial;
+            /* color: #ffffff; */
+            font-size: 20px;
+            /* background: #3498db; */
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            border-style: solid;
+            border-width: 2px;
+            display: inline-block;
+            margin-top: 10px;  
+        }
+
+        .button--outline{
+                        background: white;
+                        border-color: gray;
+                        color:#008af5;
+        }
+
+        .button--login{
+                        background: white;
+                        border-color: gray;
+                        color:gray;
+        }
+    }
+
+    @media(min-width: 992px){
+
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            font-family: Arial;
+        }
+
+        .none-menu{
+           display: none;
+        }
+        .navbar-pages{
+            display: flex;
+            text-transform: uppercase;
+        }
+
+        .navbar-buttons{
+            margin-left: 0;
+        }
+        .navbar-pages__link, .navbar-pages__link--active{
+            padding: 20px;
+            color: #37414b;
+        }
+
+        .navbar-pages__link--active{
+            border-bottom: 2px solid #008af5;
+            font-weight: bold;
+        }
+
+        .navbar-pages, .none-mobile-tablet{
+            list-style: none;
+        }
+    }
+
