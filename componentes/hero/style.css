@@ -1,0 +1,43 @@
+/* Inicio estilo mobile */
+
+.hero{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hero__features, .hero__features--text{
+    padding: 20px;
+}
+
+.hero__features--text{
+    color: #37414b;
+}
+
+.hero__features--title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.button-hero{    
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    /* color: #ffffff; */
+    font-size: 20px;
+    /* background: #3498db; */
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    margin-top: 10px;  
+}
+
+.button--primary{
+                background: blue;
+                border-color: blue;
+                color: white;
+            }
+
+/* Fim estilo mobile */
