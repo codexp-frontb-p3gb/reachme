@@ -1,5 +1,3 @@
-/* Inicio estilo mobile */
-
 .hero{
     box-sizing: border-box;
     text-align: center;
@@ -35,9 +33,12 @@
 }
 
 .button--primary{
-                background: blue;
-                border-color: blue;
-                color: white;
-            }
+    background: blue;
+    border-color: blue;
+    color: white;
+}
 
-/* Fim estilo mobile */
+.imagem-responsiva{
+    background-image: url(../../images/background-feature.jpeg);
+}            
+
