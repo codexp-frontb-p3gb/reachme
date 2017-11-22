@@ -1,3 +1,9 @@
-body{
-    background: burlywood;
+.redes-sociais{
+    display: flex;
+}
+.fa{
+    color: rgb(137, 144, 151);
+    font-size: 35px;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
