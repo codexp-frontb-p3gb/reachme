@@ -36,7 +36,8 @@
     @media(min-width: 768px){
 
         .menu{
-            padding: 20px;
+            display: flex;
+            box-shadow: 0 5px 6px -6px gray;
         }
 
         .none-mobile-tablet{
@@ -44,7 +45,10 @@
         }
 
         .navbar-buttons{
+            display: flex;
+            flex-wrap: nowrap;
             margin-left: 200px;
+            
         }
         .button{    
             -webkit-border-radius: 28px;
@@ -63,15 +67,16 @@
         }
 
         .button--outline{
-                        background: white;
-                        border-color: gray;
-                        color:#008af5;
+            color:#008af5;
+            border-color: gray;
+            background: white;
         }
 
         .button--login{
-                        background: white;
-                        border-color: gray;
-                        color:gray;
+            color:gray;
+            border-color: gray;
+            background: white;
+                        
         }
     }
 
@@ -81,11 +86,13 @@
             display: flex;
             justify-content: space-between;
             font-family: Arial;
+            box-shadow: 0 5px 6px -6px gray;
         }
 
         .none-menu{
            display: none;
         }
+
         .navbar-pages{
             display: flex;
             text-transform: uppercase;
@@ -93,7 +100,10 @@
 
         .navbar-buttons{
             margin-left: 0;
+            display: flex;
+            flex-wrap: nowrap;
         }
+
         .navbar-pages__link, .navbar-pages__link--active{
             padding: 20px;
             color: #37414b;
